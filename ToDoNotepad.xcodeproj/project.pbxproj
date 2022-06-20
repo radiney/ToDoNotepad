@@ -16,6 +16,10 @@
 		8EFEB94F285D729B0088789C /* ToDoNotepadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFEB94E285D729B0088789C /* ToDoNotepadTests.swift */; };
 		8EFEB959285D729B0088789C /* ToDoNotepadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFEB958285D729B0088789C /* ToDoNotepadUITests.swift */; };
 		8EFEB95B285D729B0088789C /* ToDoNotepadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFEB95A285D729B0088789C /* ToDoNotepadUITestsLaunchTests.swift */; };
+		8EFEB968285D73720088789C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EFEB967285D73720088789C /* GoogleService-Info.plist */; };
+		91D972DCB115226B77BE8C54 /* Pods_ToDoNotepadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B696C43F4E536FAB0FBA367 /* Pods_ToDoNotepadTests.framework */; };
+		B700B395FB79B7B4A2E2A822 /* Pods_ToDoNotepad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD34B98D0A6697CF42A1C741 /* Pods_ToDoNotepad.framework */; };
+		C488FFB1D9DDE38904136ABB /* Pods_ToDoNotepad_ToDoNotepadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD34F4AA76F79258DEA93F6 /* Pods_ToDoNotepad_ToDoNotepadUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22CF38062B4978214D393AA6 /* Pods-ToDoNotepad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoNotepad.release.xcconfig"; path = "Target Support Files/Pods-ToDoNotepad/Pods-ToDoNotepad.release.xcconfig"; sourceTree = "<group>"; };
+		4AD34F4AA76F79258DEA93F6 /* Pods_ToDoNotepad_ToDoNotepadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoNotepad_ToDoNotepadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFEB934285D72990088789C /* ToDoNotepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoNotepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFEB937285D72990088789C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EFEB939285D72990088789C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		8EFEB954285D729B0088789C /* ToDoNotepadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoNotepadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFEB958285D729B0088789C /* ToDoNotepadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoNotepadUITests.swift; sourceTree = "<group>"; };
 		8EFEB95A285D729B0088789C /* ToDoNotepadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoNotepadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8EFEB967285D73720088789C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9B696C43F4E536FAB0FBA367 /* Pods_ToDoNotepadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoNotepadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5252D611BB53D81C24C351 /* Pods-ToDoNotepadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoNotepadTests.debug.xcconfig"; path = "Target Support Files/Pods-ToDoNotepadTests/Pods-ToDoNotepadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5C49257B4B6B0F71841D93F /* Pods-ToDoNotepad-ToDoNotepadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoNotepad-ToDoNotepadUITests.release.xcconfig"; path = "Target Support Files/Pods-ToDoNotepad-ToDoNotepadUITests/Pods-ToDoNotepad-ToDoNotepadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD34B98D0A6697CF42A1C741 /* Pods_ToDoNotepad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoNotepad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3667FD69B7D3D62E9EFE7A2 /* Pods-ToDoNotepadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoNotepadTests.release.xcconfig"; path = "Target Support Files/Pods-ToDoNotepadTests/Pods-ToDoNotepadTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3E2A412B7FDEE4E97DDDE77 /* Pods-ToDoNotepad-ToDoNotepadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoNotepad-ToDoNotepadUITests.debug.xcconfig"; path = "Target Support Files/Pods-ToDoNotepad-ToDoNotepadUITests/Pods-ToDoNotepad-ToDoNotepadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF1A40D0CAB68F6DC6C729E8 /* Pods-ToDoNotepad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoNotepad.debug.xcconfig"; path = "Target Support Files/Pods-ToDoNotepad/Pods-ToDoNotepad.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B700B395FB79B7B4A2E2A822 /* Pods_ToDoNotepad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D972DCB115226B77BE8C54 /* Pods_ToDoNotepadTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C488FFB1D9DDE38904136ABB /* Pods_ToDoNotepad_ToDoNotepadUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				8EFEB94D285D729B0088789C /* ToDoNotepadTests */,
 				8EFEB957285D729B0088789C /* ToDoNotepadUITests */,
 				8EFEB935285D72990088789C /* Products */,
+				E29AB2F69AA6D744F0601EDE /* Pods */,
+				C2EF87947165ED0F3DBEBA5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +125,7 @@
 				8EFEB940285D729B0088789C /* Assets.xcassets */,
 				8EFEB942285D729B0088789C /* LaunchScreen.storyboard */,
 				8EFEB945285D729B0088789C /* Info.plist */,
+				8EFEB967285D73720088789C /* GoogleService-Info.plist */,
 			);
 			path = ToDoNotepad;
 			sourceTree = "<group>";
@@ -127,6 +147,30 @@
 			path = ToDoNotepadUITests;
 			sourceTree = "<group>";
 		};
+		C2EF87947165ED0F3DBEBA5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD34B98D0A6697CF42A1C741 /* Pods_ToDoNotepad.framework */,
+				4AD34F4AA76F79258DEA93F6 /* Pods_ToDoNotepad_ToDoNotepadUITests.framework */,
+				9B696C43F4E536FAB0FBA367 /* Pods_ToDoNotepadTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E29AB2F69AA6D744F0601EDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF1A40D0CAB68F6DC6C729E8 /* Pods-ToDoNotepad.debug.xcconfig */,
+				22CF38062B4978214D393AA6 /* Pods-ToDoNotepad.release.xcconfig */,
+				F3E2A412B7FDEE4E97DDDE77 /* Pods-ToDoNotepad-ToDoNotepadUITests.debug.xcconfig */,
+				A5C49257B4B6B0F71841D93F /* Pods-ToDoNotepad-ToDoNotepadUITests.release.xcconfig */,
+				9D5252D611BB53D81C24C351 /* Pods-ToDoNotepadTests.debug.xcconfig */,
+				D3667FD69B7D3D62E9EFE7A2 /* Pods-ToDoNotepadTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EFEB95E285D729B0088789C /* Build configuration list for PBXNativeTarget "ToDoNotepad" */;
 			buildPhases = (
+				1E54C0D1705889702063EF17 /* [CP] Check Pods Manifest.lock */,
 				8EFEB930285D72990088789C /* Sources */,
 				8EFEB931285D72990088789C /* Frameworks */,
 				8EFEB932285D72990088789C /* Resources */,
+				D1A01F8F417975A8C8A811CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EFEB961285D729B0088789C /* Build configuration list for PBXNativeTarget "ToDoNotepadTests" */;
 			buildPhases = (
+				4B7C931DBDBB18090F65F977 /* [CP] Check Pods Manifest.lock */,
 				8EFEB946285D729B0088789C /* Sources */,
 				8EFEB947285D729B0088789C /* Frameworks */,
 				8EFEB948285D729B0088789C /* Resources */,
@@ -169,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EFEB964285D729B0088789C /* Build configuration list for PBXNativeTarget "ToDoNotepadUITests" */;
 			buildPhases = (
+				BF45C61E6D94F58DB1D29D1B /* [CP] Check Pods Manifest.lock */,
 				8EFEB950285D729B0088789C /* Sources */,
 				8EFEB951285D729B0088789C /* Frameworks */,
 				8EFEB952285D729B0088789C /* Resources */,
+				F2135BA27F54D72D49FCD96A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EFEB944285D729B0088789C /* LaunchScreen.storyboard in Resources */,
+				8EFEB968285D73720088789C /* GoogleService-Info.plist in Resources */,
 				8EFEB941285D729B0088789C /* Assets.xcassets in Resources */,
 				8EFEB93F285D72990088789C /* Main.storyboard in Resources */,
 			);
@@ -252,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E54C0D1705889702063EF17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDoNotepad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B7C931DBDBB18090F65F977 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDoNotepadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF45C61E6D94F58DB1D29D1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDoNotepad-ToDoNotepadUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A01F8F417975A8C8A811CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoNotepad/Pods-ToDoNotepad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoNotepad/Pods-ToDoNotepad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToDoNotepad/Pods-ToDoNotepad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2135BA27F54D72D49FCD96A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoNotepad-ToDoNotepadUITests/Pods-ToDoNotepad-ToDoNotepadUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoNotepad-ToDoNotepadUITests/Pods-ToDoNotepad-ToDoNotepadUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToDoNotepad-ToDoNotepadUITests/Pods-ToDoNotepad-ToDoNotepadUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8EFEB930285D72990088789C /* Sources */ = {
@@ -432,6 +585,7 @@
 		};
 		8EFEB95F285D729B0088789C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1A40D0CAB68F6DC6C729E8 /* Pods-ToDoNotepad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +613,7 @@
 		};
 		8EFEB960285D729B0088789C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22CF38062B4978214D393AA6 /* Pods-ToDoNotepad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +641,7 @@
 		};
 		8EFEB962285D729B0088789C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5252D611BB53D81C24C351 /* Pods-ToDoNotepadTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +661,7 @@
 		};
 		8EFEB963285D729B0088789C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3667FD69B7D3D62E9EFE7A2 /* Pods-ToDoNotepadTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +681,7 @@
 		};
 		8EFEB965285D729B0088789C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E2A412B7FDEE4E97DDDE77 /* Pods-ToDoNotepad-ToDoNotepadUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +699,7 @@
 		};
 		8EFEB966285D729B0088789C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C49257B4B6B0F71841D93F /* Pods-ToDoNotepad-ToDoNotepadUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
